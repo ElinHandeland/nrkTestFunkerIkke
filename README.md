@@ -6,9 +6,9 @@
 
 #### For å bygge prosjektet i Docker
 ```bash
-docker build -t "appnavn" .
+docker build -t "nrkcase" .
 ```
 #### For å kjøre prosjektet i Docker
 ```bash
-docker run -i appnavn
+docker run nrkcase --repo="NRK"
 ```
